@@ -1,0 +1,6 @@
+import wx
+
+
+class WindowBase(wx.EvtHandler):
+    def AddChild(self, child: WindowBase) -> wx.Unknown: ...
+    def RemoveChild(self, child: WindowBase) -> wx.Unknown: ...
